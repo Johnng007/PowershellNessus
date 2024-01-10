@@ -36,11 +36,16 @@ git clone https://github.com/Johnng007/Nessus-Pro-API
 .\NessusAPI.ps1 -Name NameofScan -Format html
 NB: format could be(nessus,csv,html,pdf)
 
+# Specify the Server URL
+.\NessusAPI.ps1 -Name NameofScan -Format html -Server https://localhost:8834
+NB: Defaults to https://localhost:8834
 ```
 ## ✍ Notes
 * You can either use a scan name or a scan id but not both.<br>
 
 * If the format parameter is not specified it defaults to html.<br>
+* If the server parameter is not specified it defaults to https://localhost:8834 .<br>
+  The server parameter accepts Nessus Cloud URL as well https://cloud.tenable.com
 
 ## 🤔 MORE TOOLS
 Want to check out other Black Widow Tools?
