@@ -139,7 +139,7 @@ If ($PSVersionTable.PSVersion.Major -ge $RequiredPSVersion) {
 
         Write-Host -Fore DarkCyan "[!] Download Completed!"		
 			
-        break  # Exit the loop when the desired status code is reached
+        break  
       }
       else {
         Write-Host -Fore Cyan "[!] Let's keep Waiting....."
