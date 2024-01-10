@@ -10,7 +10,7 @@ This script exports and downloads Nessus scans based on the scan Name or ID.
 
 ## 🎫 Mandatory Dependencies
 
-This script is only compatible with Powershell 7. 
+This script is only compatible with Powershell 6/7. 
 <p>You can download and install Powershell 7 Here https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.4</p>
 
 ## 🔨 Usage
