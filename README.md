@@ -42,7 +42,7 @@ NB: Defaults to https://localhost:8834
 ```
 ## ✍ Notes
 * You can either use a scan name or a scan id but not both.<br>
-
+* On script execution, a check is done to determine the powershell version in use, if its below 6, the user is prompted to auto download and install powershell 7.<br>
 * If the format parameter is not specified it defaults to html.<br>
 * If the server parameter is not specified it defaults to https://localhost:8834 .<br>
   The server parameter accepts Nessus Cloud URL as well https://cloud.tenable.com
