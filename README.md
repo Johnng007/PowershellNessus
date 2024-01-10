@@ -6,7 +6,7 @@ NOTE: This script only works in Powershell 7.
 # 🤔 ABOUT
 
 This script exports and downloads Nessus scans based on the scan Name or ID.
-<p>The actions are herein are based on the Nessus Professional API https://developer.tenable.com/reference/navigate  </p>
+<p>The actions herein are based on the Nessus Professional API https://developer.tenable.com/reference/navigate  </p>
 
 ## 🎫 Mandatory Dependencies
 
