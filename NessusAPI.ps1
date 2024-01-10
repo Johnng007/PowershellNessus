@@ -16,8 +16,8 @@ $RequiredPSVersion = 6
 If ($PSVersionTable.PSVersion.Major -ge $RequiredPSVersion) {
 
   # Enter you Nessus API details Below
-  $AccessKey = "3d1a73860a37128ea8ac5a0290f11f99f15259f2827f138953a1c3c554e1000d"
-  $secretKey = "bfdcc605e63c54557d6230c7df4f8cd5a52419d8ba446eee744f37c48ef03933"
+  $AccessKey = "****************************************************************"
+  $secretKey = "****************************************************************"
 
   $ExportFileName = Get-Date –format 'yyyyMMdd_HHmmss'
   $SaveFile = "$ExportFileName.$Format"
